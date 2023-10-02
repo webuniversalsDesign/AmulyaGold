@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import mainLogo from '../img/companyLogo/logo.png';
 import {AiOutlineMail} from 'react-icons/ai'
 import {BiPhoneCall} from 'react-icons/bi'
@@ -9,9 +9,9 @@ const Navbar = () => {
     <>
       <nav>
         <div className='nav-container'>
-<div className='nav-logo'>
+<Link to="/" className='nav-logo'>
 <img src={mainLogo} alt='logo-not-found'/>
-</div>
+</Link>
 
 <ul className='nav-links ondesk'>
 {/* <li><Link to="/" className='link-dec-none'>Home</Link></li> */}
