@@ -97,6 +97,16 @@ transition: all 0.3s ease-in-out;
 
 .bg-section{
 position: relative;
+background-image: url('./img/sectionBanner/section-bg.jpg');
+
+}
+
+.bg-end-section{
+position: absolute;
+background-image: url('./img/sectionBanner/section-bg2.png');
+min-height:100% ;
+width: 150px;
+right: 0px;
 }
 
 .bg-black{
@@ -198,6 +208,7 @@ font-size: 13px;
 .section-img{
 width: 100%;
 height: auto;
+
 }
 
 nav .nav-container{
@@ -270,6 +281,7 @@ display: none;
 .section-img{
     width: auto;
     height: 550px;
+    /* position: absolute; */
 }
 
 .bannertext{
@@ -316,5 +328,5 @@ letter-spacing: 1px;
 }
 
 .bg-sectionImg{
-    
+    background-image: url('.');
 }
