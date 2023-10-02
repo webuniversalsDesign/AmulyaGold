@@ -1,0 +1,320 @@
+nav .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0px 5px 20px 0px #e0e0e0;
+}
+
+
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-links li{
+    margin: 0px 5px;
+    padding: 0px 10px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-links li:hover{
+/* letter-spacing: 1px; */
+
+
+}
+
+.link-dec-none{
+color: black;
+    transition: all 0.2s ease-in-out;
+text-decoration: none !important;
+}
+
+.link-dec-none:hover{
+    color: #bd9f00;
+}
+
+.resp-carousel{
+height: 550px;
+}
+
+.img-carousel{
+    height: 550px;
+}
+
+
+
+
+
+
+
+.banner-icon{
+height: 70px;
+width: 70px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.icon-border-lined{
+    border: 2px dashed black;
+    border-radius: 60px;
+    padding: 20px;
+    margin-bottom:20px;
+    height: 105px;
+    width: 105px;
+    background-color:white ;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+}
+
+
+.bg-circle{
+    position: absolute;
+    background-color:#ffa538 ;
+    height: 0px;
+    width: 0px;
+    border-radius: 50px;
+    top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.3s ease-in-out;
+}
+
+
+.hover-bg:hover .bg-circle{
+    height: 100px;
+    width: 100px;
+}
+
+.bg-section{
+position: relative;
+}
+
+.bg-black{
+    background-color: black !important;
+    padding: 20px 0px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.section-header{
+    font-size: 35px;
+    font-weight: 700;
+}
+.container-Img{
+    height: 400px;
+    width: 100%;
+}
+
+.text-white{
+color: white;
+}
+
+.text-section-big{
+font-size: 50px;
+}
+
+.text-para-sm{
+font-weight: 200;
+font-size: 20px;
+margin: 0px;
+/* text-transform:uppercase; */
+}
+
+.text-gold{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fbbd18;
+}
+
+.text-gold-span{
+    color: #fbbd18;
+
+}
+
+.footer{
+    background-color: white;
+    box-shadow: -1px -6px 14px 0px #e7e7e7;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footerlogo{
+    width: auto;
+    height: 80px;
+}
+
+.color-gray{
+    color: rgb(155, 155, 155);
+font-size: 13px;
+}
+
+.linker-footer{
+    margin: 5px 0px;
+}
+
+.footerlink{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+.nav-logo img{
+    height: 40px;
+    width: auto;
+}
+
+.bannertext{
+    font-size: 30px;
+    margin-bottom:40px ;
+    }
+
+    .banner-subtext{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+    .carousel-caption-text {
+        position: absolute;
+        top: 50%;
+        left: 22%;
+        transform: translate(-15%, -50%);
+        color: #fff;
+    }
+
+.section-img{
+width: 100%;
+height: auto;
+}
+
+nav .nav-container{
+    padding: 10px 10px;
+}
+
+.only-mobile{
+display: flex;
+}
+
+.ondesk{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width:768px){
+.nav-logo img{
+    height: 60px;
+    width: auto;
+}
+.only-mobile{
+display: none;
+}
+
+.bannertext{
+    font-size: 60px;
+    margin-bottom:40px ;
+    }
+
+    .carousel-caption-text {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-15%, -50%);
+        color: #fff;
+    }
+
+    .banner-subtext{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+.section-img{
+    width: 100%;
+    height: 550px;
+    }
+
+
+nav .nav-container{
+    padding: 10px 100px;
+}
+
+.ondesk{
+    display: block;
+}
+    
+}
+
+@media only screen and (min-width:1200px){
+.nav-logo img{
+    height: 60px;
+    width: auto;
+}
+.only-mobile{
+display: none;
+}
+
+.section-img{
+    width: auto;
+    height: 550px;
+}
+
+.bannertext{
+    font-size: 60px;
+    margin-bottom:40px ;
+    }
+
+    .carousel-caption-text {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-15%, -50%);
+        color: #fff;
+    }
+
+    .banner-subtext{
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0px;
+    }
+
+nav .nav-container{
+    padding: 10px 100px;
+}
+
+.ondesk{
+    display:flex ;
+}
+    
+}
+
+.nav-icons{
+    font-size: 20px;
+}
+
+.font-md{
+font-size: 15px !important;
+transition: all 0.3s ease-in-out;
+}
+
+.font-md:hover{
+    font-size: 15px !important;
+letter-spacing: 1px;   
+}
+
+.bg-sectionImg{
+    
+}
