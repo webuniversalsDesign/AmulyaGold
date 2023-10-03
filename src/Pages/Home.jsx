@@ -69,7 +69,7 @@ const Home = (props) => {
                                
                             </div>
                             <textarea type="text" rows='5' cols="10" className="form-control mt-2 pb-2" placeholder="Enter Your Message" name="user_message"  required></textarea>
-                            <input type="submit" className="btn btn-warning mt-4" value="Send" style={{ width: "130px" }} />
+                            <input type="submit" className="btn btn-warning mt-3" value="Send" style={{ width: "130px", fontWeight:"500" }} />
                         </form>
                     </div>
                 </Modal.Body>
