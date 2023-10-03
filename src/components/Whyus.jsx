@@ -6,7 +6,7 @@ import Values from '../img/values.png';
 const Whyus = () => {
   return (
     <>
-       <section className='container mt-5 mb-5 pt-lg-5 pb-lg-2'>
+       <section className='container mt-5 mb-5 pt-lg-5 pb-lg-2 pb-5'>
         <div className='row'>
 
           <div className='col-lg-4 col-sm-12 hover-bg'>

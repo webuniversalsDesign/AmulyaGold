@@ -16,16 +16,16 @@ const WelcomeGold = () => {
             </div>
             </div>
 
-            <div className='col-lg-6' style={{zIndex:"11111"}}>
+            <div className='col-lg-6' style={{zIndex:"1"}}>
               <h2 className='section-header mb-5'>WELCOME TO AMULYA GOLD INDIA PVT LTD</h2>
-              <h5>The Most Trusted Gold Buyers in Bangalore</h5>
-              <p className='text-justify'>Sell your gold and get instant cash against it. We buy both old and new gold, 
+              <h4>The Most Trusted Gold Buyers in Bangalore</h4>
+              <p className='text-justify text-bold'>Sell your gold and get instant cash against it. We buy both old and new gold, 
               silver, diamond, precious stones and platinum jewellery and offer you the best market 
               price. Our process is simple and quick, saving you the usual hassle. At Amulya we maintain 
               full transparency while evaluating the jewellery, and make sure you remain witness to it. 
               We value the trust of all our customers and offer the best gold selling rate in Bangalore.</p>
-              <h5>The Promise of Excellence</h5>
-              <p className='text-justify'>Amulya Gold India Pvt Ltd takes pride in the expertise and skills of their team of experienced 
+              <h4>The Promise of Excellence</h4>
+              <p className='text-justify text-bold'>Amulya Gold India Pvt Ltd takes pride in the expertise and skills of their team of experienced 
               professionals, who always strive to offer customers a seamless service of gold selling in Bangalore.
                Trading in jewellery comes with its intricacies that can be hard for one to understand. We make it
                 an easy process for our customers with proper consultation and guidance. Customer satisfaction is

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import footerImglogo from '../img/companyLogo/logo.png';
+import {BiSolidPhoneCall} from 'react-icons/bi';
 
 
 const Footer = () => {
@@ -58,12 +59,19 @@ Bengaluru - 560003.</p>
           
         </div>
 <hr/>
-        <div className='container'>
+        <div className='container leave-footer-space'>
         <div className='d-flex justify-content-between'>
           <p>© 2023 Design & Developed by <a href='https://webuniversals.co.in/' target='_blank' rel="noreferrer" className="footerlink font-md">Webuniversals</a></p>
         </div>
       </div>
       </section> 
+
+<a href='tel:(+91) 888 40 70 700'>  
+      <div className='cta-strap'>
+      <BiSolidPhoneCall className='icon-call'/> Call Us Now
+            </div>
+</a>
+  
     </>
   )
 }

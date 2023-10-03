@@ -40,13 +40,6 @@ text-decoration: none !important;
     color: #bd9f00;
 }
 
-.resp-carousel{
-height: 550px;
-}
-
-.img-carousel{
-    height: 550px;
-}
 
 
 
@@ -118,10 +111,6 @@ right: 0px;
     text-align: justify;
 }
 
-.section-header{
-    font-size: 35px;
-    font-weight: 700;
-}
 .container-Img{
     height: 400px;
     width: 100%;
@@ -174,7 +163,7 @@ font-size: 13px;
 }
 
 .footerlink{
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -190,6 +179,37 @@ font-size: 13px;
     font-size: 30px;
     margin-bottom:40px ;
     }
+
+    .leave-footer-space{
+        padding-bottom: 50px;
+    }
+
+    .resp-carousel{
+        height: 350px;
+        }
+        
+        .img-carousel{
+            height: 350px;
+        }
+
+        
+    .cta-strap{
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        line-height: 3.5;
+        background-color: #dc8800;
+        color: white;
+        font-weight: 500;
+        letter-spacing: 2px;
+        z-index: 1111;
+    }
+    
+.section-header{
+    font-size: 20px;
+    font-weight: 700;
+}
 
     .banner-subtext{
         font-size: 15px;
@@ -208,7 +228,7 @@ font-size: 13px;
 .section-img{
 width: 100%;
 height: auto;
-
+display: none;
 }
 
 nav .nav-container{
@@ -232,6 +252,28 @@ display: flex;
 }
 .only-mobile{
 display: none;
+}
+
+.cta-strap{
+display: none;
+    }
+
+    .resp-carousel{
+        height: 550px;
+        }
+        
+        .img-carousel{
+            height: 550px;
+        }
+
+        
+    .leave-footer-space{
+        padding-bottom: 0px;
+    }
+
+.section-header{
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .bannertext{
@@ -278,10 +320,32 @@ nav .nav-container{
 display: none;
 }
 
+.leave-footer-space{
+    padding-bottom: 0px;
+}
+
 .section-img{
     width: auto;
     height: 550px;
     /* position: absolute; */
+}
+
+.resp-carousel{
+    height: 550px;
+    }
+    
+    .img-carousel{
+        height: 550px;
+    }
+
+    
+.cta-strap{
+    display: none;
+        }
+
+.section-header{
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .bannertext{
@@ -329,4 +393,13 @@ letter-spacing: 1px;
 
 .bg-sectionImg{
     background-image: url('.');
+}
+
+.text-bold{
+    font-weight: 500 !important;
+}
+
+.icon-call{
+    font-size: 25px;
+    margin-bottom: 4px;
 }
