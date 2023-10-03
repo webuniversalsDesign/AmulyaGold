@@ -643,7 +643,7 @@ transition: all 0.3s ease-in-out;
 
 .work-traps-card:hover .icon-bg{
     color: black;
-    font-size: 55px;
+    font-size: 150px;
 }
 
 .work-traps-card h5{

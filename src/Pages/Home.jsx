@@ -73,7 +73,7 @@ const Home = (props) => {
                         </form>
                     </div>
                 </Modal.Body>
-            </Modal>
+     </Modal>
 
     </>
   )
