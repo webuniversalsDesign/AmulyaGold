@@ -84,22 +84,26 @@ transition: all 0.3s ease-in-out;
 
 
 .hover-bg:hover .bg-circle{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
 
 .bg-section{
 position: relative;
 background-image: url('./img/sectionBanner/section-bg.jpg');
-
+background-size: contain;
 }
 
 .bg-end-section{
 position: absolute;
-background-image: url('./img/sectionBanner/section-bg2.png');
-min-height:100% ;
-width: 150px;
-right: 0px;
+background-image: url('./img/sectionImg1.png');
+width: 500px;
+height: 500px;
+background-size: cover;
+    bottom: 0px;
+    left: 20%;
+    transform: translate(-20%, 0px);
+   
 }
 
 .bg-black{
@@ -180,10 +184,42 @@ font-size: 13px;
     margin-bottom:40px ;
     }
 
+.gold-card{
+height: auto;
+}
+
+.text-resp{
+font-size: 15px;
+}
+
     .leave-footer-space{
         padding-bottom: 50px;
     }
+    .wrap-resp{
+        flex-wrap: wrap;
+            }
 
+            .bg-end-section{
+            display: none;
+            }
+
+    .black-card{
+        padding: 25px;
+        height: auto;
+    }
+
+.header-subcontent{
+    width: 100%;
+}
+
+.section-header2{
+    font-size: 30px;
+    }
+    
+    .text-gold{
+        color: #fbbd17;
+    font-size: 20px;
+    }
     .resp-carousel{
         height: 350px;
         }
@@ -258,6 +294,37 @@ display: none;
 display: none;
     }
 
+    .gold-card{
+        height: auto;
+        }
+
+    .section-header2{
+        font-size: 50px;
+        }
+        
+        .text-gold{
+            color: #fbbd17;
+        font-size: 50px;
+        }
+
+    .bg-end-section{
+        display: block;
+        }
+
+
+    .wrap-resp{
+        flex-wrap: nowrap;
+            }
+
+    .black-card{
+        padding: 25px;
+        height: auto;
+    }
+
+    .header-subcontent{
+        width: 100%;
+    }
+
     .resp-carousel{
         height: 550px;
         }
@@ -311,7 +378,44 @@ nav .nav-container{
     
 }
 
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:998px){
+    .section-header2{
+        font-size: 40px;
+        }
+        
+        .text-gold{
+            color: #fbbd17;
+        font-size: 40px;
+        }
+
+    .wrap-resp{
+flex-wrap: nowrap;
+    }
+
+    .text-resp{
+        font-size: 13px;
+        }
+
+    .gold-card{
+        height: 400px;
+        }
+
+    .bg-end-section{
+        display: block;
+        }
+
+    .header-subcontent{
+        width: 70%;
+    }
+
+    .black-card{
+        padding: 15px;
+        height: 130px;
+    }
+
+}
+
+@media only screen and (min-width:1400px){
 .nav-logo img{
     height: 60px;
     width: auto;
@@ -328,6 +432,41 @@ display: none;
     width: auto;
     height: 550px;
     /* position: absolute; */
+}
+
+.text-resp{
+    font-size: 16px;
+    }
+
+.gold-card{
+    height: 390px;
+    }
+
+.bg-end-section{
+    display: block;
+    }
+
+.section-header2{
+font-size: 50px;
+}
+
+.text-gold{
+    color: #fbbd17;
+font-size: 50px;
+}
+
+
+.wrap-resp{
+    flex-wrap: nowrap;
+        }
+
+.black-card{
+    padding: 25px;
+    height: 170px;
+}
+
+.header-subcontent{
+    width: 60%;
 }
 
 .resp-carousel{
@@ -402,4 +541,143 @@ letter-spacing: 1px;
 .icon-call{
     font-size: 25px;
     margin-bottom: 4px;
+}
+
+.bg-black{
+    background-color: black !important;
+}
+
+.section-header2{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.underline-header{
+    background-image: url('./img/line2.png');
+    background-size: contain;
+    width: 105px;
+    height: 4px;
+}
+
+.header-subcontent{
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 5px 50px 5px;
+}
+
+.black-card{
+background-color: black;
+
+    border: 2px solid gray;
+    border-radius: 10px;
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.card-content{
+}
+
+.card-content h5{
+color: #fbbd17;
+font-weight: 700;
+transition: all 0.3s ease-in-out;
+}
+
+.black-card:hover .card-content h5{
+    color: #fbbd17;
+}
+
+.card-content p{
+color: white;
+margin: 0px;
+font-weight: 200;
+}
+
+.card-icons .r-icons{
+color: white;
+font-size: 80px;
+transition: all 0.3s ease-in-out;
+margin: 0px 35px 0px 5px;
+}
+
+.black-card:hover{
+border: 2px solid #fbbd17;
+}
+
+.black-card:hover .card-icons .r-icons{
+    color: #fbbd17;
+
+}
+
+.icon-bg-round{
+    position: relative;
+    height: 105px;
+    width: 105px;
+    background-color: black;
+    border-radius: 50%;
+transition: all 0.3s ease-in-out;
+
+}
+
+.icon-bg-round .icon-bg{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+transition: all 0.3s ease-in-out;
+
+}
+
+.work-traps-card{
+    cursor: pointer;
+}
+
+.work-traps-card:hover .icon-bg-round{
+    background-color:#fbbd17;
+
+}
+
+.work-traps-card:hover .icon-bg{
+    color: black;
+    font-size: 55px;
+}
+
+.work-traps-card h5{
+font-weight: 700;
+text-align: center;
+}
+
+.work-traps-card p{
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+}
+
+
+.gold-card{
+    box-shadow: 0px 6px 15px 0px #cecece;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.gold-card:hover{
+    border-bottom: 3px solid #fbbd17;
+}
+
+.gold-card img{
+    width: 100%;
+    height: 250px;
+}
+
+.gold-card h5{
+    
+}
+
+.gold-card p{
+    
 }

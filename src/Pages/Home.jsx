@@ -8,6 +8,9 @@ import Whyus from '../components/Whyus';
 import WelcomeGold from '../components/WelcomeGold';
 import CashGold from '../components/CashGold';
 import BuyGold from '../components/BuyGold';
+import Chooseus from '../components/Chooseus';
+import Howitwork from '../components/Howitwork';
+import Ourservices from '../components/Ourservices';
 
 
 
@@ -22,9 +25,17 @@ const Home = () => {
      
       <WelcomeGold/>   
 
+      <Chooseus/>
+
       <CashGold/>
 
-      <BuyGold/>
+      {/* <BuyGold/> */}
+
+<Ourservices/>
+
+     <Howitwork/>
+
+
 
       <Footer/>
 

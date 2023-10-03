@@ -9,7 +9,7 @@ const Whyus = () => {
        <section className='container mt-5 mb-5 pt-lg-5 pb-lg-2 pb-5'>
         <div className='row'>
 
-          <div className='col-lg-4 col-sm-12 hover-bg'>
+          <div className='col-lg-4 col-sm-12 hover-bg pt-3 pb-3'>
             <div className='d-flex justify-content-center'>
               <div className='icon-border-lined'>
                 <div className='bg-circle' />
@@ -19,7 +19,7 @@ const Whyus = () => {
             <h5 className='text-center'>The Mort Trusted Gold Buyers <br />in Bangalore</h5>
           </div>
 
-          <div className='col-lg-4 col-sm-12 hover-bg'>
+          <div className='col-lg-4 col-sm-12 hover-bg pt-3 pb-3'>
             <div className='d-flex justify-content-center'>
               <div className='icon-border-lined'>
                 <div className='bg-circle' />
@@ -29,7 +29,7 @@ const Whyus = () => {
             <h5 className='text-center'>The Promise of  Excellence</h5>
           </div>
 
-          <div className='col-lg-4 col-sm-12 hover-bg'>
+          <div className='col-lg-4 col-sm-12 hover-bg pt-3 pb-3'>
             <div className='d-flex justify-content-center'>
               <div className='icon-border-lined'>
                 <div className='bg-circle' />
